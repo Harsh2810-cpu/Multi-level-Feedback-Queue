@@ -4,7 +4,7 @@ class process{
     int priority;
     int burst_time;
     int tt_time;
-    int total_time;// Initialize to 0
+    int total_time;
 }
 
 class queues{
@@ -12,8 +12,8 @@ class queues{
     int priority_end;
     int total_time=0;
     int length = 0;
-    process[] p;//process *p;
-    boolean executed;// = false;
+    process[] p;
+    boolean executed;
 }
 
 
